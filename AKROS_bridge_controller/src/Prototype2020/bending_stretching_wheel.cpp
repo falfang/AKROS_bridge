@@ -17,7 +17,7 @@ private:
 
     // legged locomotion settings
     double leg_frequency = 0.5;
-    double leg_amplitude = 0.1;
+    double leg_amplitude = 0.08;
     double leg_omega;
     Eigen::Vector2d pref, p_center;
     Eigen::VectorXd q_extension;
