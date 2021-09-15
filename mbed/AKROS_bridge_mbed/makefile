@@ -1,7 +1,7 @@
 PROJECT         := AKROS_bridge_mbed
 DEVICES         := NUCLEO_F446RE 	NUCLEO_L476RG
 GCC4MBED_DIR    := $(GCC4MBED_DIR)
-USER_LIBS       := !$(ROS_LIB_DIR) $(ROS_LIB_DIR)/BufferedSerial\
+USER_LIBS       := !../ros_lib ../ros_lib/BufferedSerial\
 					../include
 
 NO_FLOAT_SCANF  := 1
