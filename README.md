@@ -44,3 +44,6 @@ PCとROSの接続にはrosserialを用いた．
 ・/servo_setting -> 関節のサーボ剛性を変更   
 ・/current_state -> 現在の関節状態をAKROS_bridge_converterから受け取る  
 ・/tweak_control -> 関節の微調整に使用
+
+# ToDo list
+- [ ] yamlファイルでモータをどのモードで制御するか指定できるようにする．また，joint_limit_interfaceもそれに応じて調節 
